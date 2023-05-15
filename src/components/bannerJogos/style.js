@@ -13,6 +13,14 @@ const styles = StyleSheet.create({
         marginTop:15,
         marginLeft:-90,
         fontWeight:'Bold'
+    },
+
+    textBanner2:{
+        fontSize:30,
+        color:'white',
+        marginTop:15,
+        marginLeft:-90,
+        fontWeight:'Bold'
     }
 })
 

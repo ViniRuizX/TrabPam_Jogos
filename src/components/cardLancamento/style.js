@@ -13,12 +13,23 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 12,
         marginTop: '7px',
-        fontSize: 12,
         fontWeight: 'bold'
     },
     precoLancameto:{
+        fontSize:11,
+        color:'#238210',
+        marginLeft: '1px',
+        fontWeight: 'bold'
+    },
+    notaLancameto:{
         fontSize:10,
-        color:'#fff',
+        color:'#ffd036',
+        marginLeft: '1px'
+    },
+    
+    desenLancameto:{
+        fontSize:10,
+        color:'#bfbfbf',
         marginLeft: '1px'
     },
     imagemLancamento:{

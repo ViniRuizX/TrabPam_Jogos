@@ -29,6 +29,8 @@ export default function App() {
           <CardLancamento
 
             titulo = {item.nome}
+            desen = {item.desen}
+            nota = {item.nota}
             preco = {item.preco}
             imagem = {item.imagem}
 
@@ -40,7 +42,7 @@ export default function App() {
         />
       </View>
 
-      <Text style = {styles.textBanner} class="alta"> Mais Vendidos </Text>
+      <Text style = {styles.textBanner2} class="alta"> Mais Vendidos </Text>
 
       <View style={{width:"90%"}}>
         <FlatList
@@ -53,6 +55,8 @@ export default function App() {
           <CardMaisVendido
 
             titulo = {item.nome}
+            desen = {item.desen}
+            nota = {item.nota}
             preco = {item.preco}
             imagem = {item.imagem}
 
@@ -70,7 +74,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    backgroundColor: '#2e0136',
+    backgroundColor: '#15011c',
     alignItems:"center"
     
     
@@ -82,6 +86,14 @@ const styles = StyleSheet.create({
     marginTop:15,
     marginLeft:-175,
     fontWeight:'Bold'
+},
+
+  textBanner2:{
+  fontSize:30,
+  color:'white',
+  marginTop:15,
+  marginLeft:-155,
+  fontWeight:'Bold'
 }
 
 });
